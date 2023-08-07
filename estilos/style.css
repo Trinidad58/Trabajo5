@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER*/
+.header{
+    background-color: #ffd500;
+    width: 100%;
+   
+}
+
+
+
+.titulo{
+    display: flex;
+    justify-content: left;
+}
+
+.titulo-principal{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 500%;
+    text-align: center;
+    color: #ed1c24;
+}
+
+/*nav*/
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.nav-2{
+    text-decoration: none;
+    color: white;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #ed1c24;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.p-footer{
+    color: white;
+}
+
+/* HTML CONTACTO */
+
+.contacto{
+    padding: 10px;
+    margin: 10px;
+    width: 170px;
+    background-color: #000000;
+}
+
+.p-contacto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enviar{
+    align-content: center;
+    background-color: white;
+    border: white;
+    width: 70px;
+}
+
+/* HTML HORARIOS DE ATENCION */
+
+/* Tabla de horarios */
+
+.dias{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
